@@ -1,0 +1,33 @@
+.catContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap :25px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: max-content;
+    .catImage{
+      width: 370px;
+      height: 350px;
+      border-radius: 8px;
+    }
+    button{
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #eff5ff;
+        border-radius: 8px;
+        border: 2px solid #101010;
+        box-shadow: 1px 2px 10px 2px gray;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.7;
+        }
+        &:active{
+            background-color:#015ec2;
+        }
+    }
+}
